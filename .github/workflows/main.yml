@@ -8,6 +8,6 @@ jobs:
 
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:      
-      - uses: HarishTeens/javascript-action-temp@v1.0.1
+      - uses: HarishTeens/woofy-actions@v1.0.2
         with:
             GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
